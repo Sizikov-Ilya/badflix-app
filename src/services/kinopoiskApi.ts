@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const kinopoiskApiKey = "24c6993d-06ec-4268-80f9-23dbbcce56db";
+const kinopoiskApiKey = import.meta.env.VITE_KINOPOISK_KEY;
 
 const excludeGenres = [
   "",
