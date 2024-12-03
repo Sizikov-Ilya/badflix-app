@@ -1,0 +1,18 @@
+.video {
+  height: 315px;
+  width: 370px;
+  margin: 20px auto;
+  background-image: url("//pleer.videoplayers.club/web/img/loader.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .video {
+    width: 610px;
+  }
+}
